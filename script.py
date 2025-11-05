@@ -8,7 +8,7 @@ slideUnit = 4000
 attemptsNumber = 999
 
 # 打开微信
-loc = pyautogui.locateOnScreen("wechat.png", confidence=0.8)
+loc = pyautogui.locateOnScreen("wechat.png", confidence=0.7)
 if loc:
     pyautogui.click((loc.left + loc.width/2)*scale, (loc.top + loc.height/2)*scale)
     print('已打开微信图标')
